@@ -1,5 +1,9 @@
-from pymongo import MongoClient
+# Stubs
 
-client = MongoClient("mongodb://localhost:27017/")
-db = client.local
-users = db["items"]
+
+def get_results(query):
+    """
+    :param query: Item -> (name, brand)
+    :return: List of: (store{name, dist, markup}, price=wsp*markup)
+    """
+    pass
