@@ -3,7 +3,7 @@ import json
 
 endpoint = "http://127.0.0.1:5000"
 
-images = ["chocolate.jpg", "cookies.jpg", "idk.png", "salmon.jpg", "sauce.jpg", "sugar.jpg"]
+images = ["chocolate.jpg", "cookies.jpg", "salmon.jpg", "sauce.jpg", "sugar.jpg"]
 
 jsons = []
 
@@ -19,7 +19,7 @@ for image in images:
     data = response.json()
     jsons.append(data)
 
-with open('dump.json', 'w') as f:
+with open('items.json', 'w') as f:
     json.dump(jsons, f, indent=4)
 
 print('done')

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Target",
+    "distance": 2.5,
+    "markup": 1.31
+  },
+  {
+    "name": "QFC",
+    "distance": 0.8,
+    "markup": 1.48
+  },
+  {
+    "name": "Trader Joe's",
+    "distance": 3.1,
+    "markup": 1.23
+  },
+  {
+    "name": "Whole Foods",
+    "distance": 0.5,
+    "markup": 1.55
+  },
+  {
+    "name": "Fred Meyer",
+    "distance": 5.5,
+    "markup": 1.15
+  }
+]
