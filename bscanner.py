@@ -54,16 +54,12 @@ def bscan(image, resize_factor=1.0, show_output=False):
     try:
         product_name = data['product']['product_name']
         brands = data['product']['brands']
-        brands_tags = data['product']['brands_tags']
-        keywords = data['product']['_keywords']
     except KeyError:
         return {'error': 'Could not retrieve product info for UPC {}'.format(upc)}
 
     result = {
         'product_name': product_name,
         'brands': brands,
-        'brands_tags': brands_tags,
-        'keywords': keywords,
     }
     print(result)
     return result
