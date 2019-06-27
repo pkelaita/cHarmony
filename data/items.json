@@ -1,88 +1,56 @@
 [
-    {
-        "brands": "Chocolove", 
-        "keywords": [
-            "ginger", 
-            "in", 
-            "chocolove", 
-            "chocolate", 
-            "crystallized", 
-            "dark"
-        ], 
-        "product_name": "Ginger Crystallized In Dark Chocolate", 
-        "brands_tags": [
-            "chocolove"
-        ],
-        "wsp": 5.50
-    }, 
-    {
-        "brands": "Girl scouts", 
-        "keywords": [
-            "thin", 
-            "girl", 
-            "mint", 
-            "scout", 
-            "thin-mint"
-        ], 
-        "product_name": "Thin mints", 
-        "brands_tags": [
-            "girl-scouts"
-        ],
-        "wsp": 6.35
-    }, 
-    {
-        "brands": "John West", 
-        "keywords": [
-            "john", 
-            "food", 
-            "seafood", 
-            "dot", 
-            "west", 
-            "green", 
-            "red", 
-            "canned", 
-            "salmon", 
-            "fishe"
-        ], 
-        "product_name": "Red Salmon", 
-        "brands_tags": [
-            "john-west"
-        ],
-        "wsp": 2.25
-    }, 
-    {
-        "brands": "Dave's Gourmet", 
-        "keywords": [
-            "pasta", 
-            "gourmet", 
-            "heirloom", 
-            "sauce", 
-            "grocerie", 
-            "red", 
-            "tomato", 
-            "orgainc", 
-            "dave"
-        ], 
-        "product_name": "Dave's Gourmet Red Heirloom", 
-        "brands_tags": [
-            "dave-s-gourmet"
-        ],
-        "wsp": 4.75
-    }, 
-    {
-        "brands": "Florida Crystals", 
-        "keywords": [
-            "pure", 
-            "cane", 
-            "sugar", 
-            "organic", 
-            "florida", 
-            "crystal"
-        ], 
-        "product_name": "Organic Pure Cane Sugar", 
-        "brands_tags": [
-            "florida-crystals"
-        ],
-        "wsp": 2.15
-    }
+  {
+    "brands": "Chocolove",
+    "product_name": "Ginger Crystallized In Dark Chocolate",
+    "wsp": 5.50,
+    "stores": [
+      "QFC",
+      "Fred Meyer",
+      "Target"
+    ]
+  },
+  {
+    "brands": "Girl scouts",
+    "product_name": "Thin mints",
+    "wsp": 6.35,
+    "stores": [
+      "Target",
+      "Fred Meyer",
+      "QFC"
+    ]
+  },
+  {
+    "brands": "John West",
+    "product_name": "Red Salmon",
+    "wsp": 2.25,
+    "stores": [
+      "Whole Foods",
+      "Target",
+      "Trader Joe's",
+      "QFC",
+      "Fred Meyer"
+    ]
+  },
+  {
+    "brands": "Dave's Gourmet",
+    "product_name": "Dave's Gourmet Red Heirloom",
+    "wsp": 4.75,
+    "stores": [
+      "Fred Meyers ",
+      "Whole Foods",
+      "Trader Joe's",
+      "Target"
+    ]
+  },
+  {
+    "brands": "Florida Crystals",
+    "product_name": "Organic Pure Cane Sugar",
+    "wsp": 2.15,
+    "stores": [
+      "Target",
+      "Whole Foods",
+      "Trader Joe's",
+      "QFC"
+    ]
+  }
 ]

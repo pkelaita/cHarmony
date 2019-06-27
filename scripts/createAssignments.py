@@ -3,7 +3,7 @@ import json
 
 num_items = 5
 
-stores = ["Target", "QFC", "Trader Joe's", "Whole Foods", "Fred Meyers "]
+stores = ["Target", "QFC", "Trader Joe's", "Whole Foods", "Fred Meyer"]
 
 lists = []
 
