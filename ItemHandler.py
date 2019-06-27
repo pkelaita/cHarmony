@@ -29,7 +29,7 @@ def rank(store_data_list):
     norm_prices = normalize(prices)
     assert len(norm_distances) == len(distances)
 
-    for i in range(store_data_list):
+    for i in range(len(store_data_list)):
         store_name = store_data_list[i][JSON]['name']
         distance = norm_distances[i]
         price = norm_prices[i]
