@@ -1,6 +1,6 @@
 from pyzbar import pyzbar
 import numpy
-import urllib.request
+import urllib
 import cv2
 import json
 
@@ -18,10 +18,11 @@ def bscan_file(image_file, resize_factor=1.0, show_output=False):
 
 def bscan(image, resize_factor=1.0, show_output=False):
     decoded = pyzbar.decode(image)
-
     if not decoded:
-        return {'error': 'No barcode found in image'}
+        print('Error: could not read barcode')
+        return {'error': 'could not read barcode'}
     elif len(decoded) > 1:
+        print('Error: Multiple barcodes in image')
         return {'error': 'Multiple barcodes in image'}
 
     # Parse
@@ -45,7 +46,7 @@ def bscan(image, resize_factor=1.0, show_output=False):
 
     # Get product info
     url = 'https://world.openfoodfacts.org/api/v0/product/{}.json'.format(upc)
-    data = json.load(urllib.request.urlopen(url))
+    data = json.load(urllib.urlopen(url))
 
     if not data['status']:
         return {'error': 'Product with UPC {} not found'.format(upc)}
