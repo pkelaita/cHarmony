@@ -1,5 +1,5 @@
 CREATE TABLE item (
-    item_id INT NOT NULL AUTO_INCREMENT,
+    item_id INT NOT NULL AUTO_INCREMENT UNIQUE,
     product_name VARCHAR(255) NOT NULL UNIQUE,
     brands VARCHAR(255),
     wsp INT NOT NULL,
@@ -13,9 +13,7 @@ ALTER TABLE item
 
 CREATE TABLE stores (
     item_id INT NOT NULL,
-    store_id INT NOT NULL UNIQUE,
-    store_name VARCHAR(255) NOT NULL UNIQUE,
+    store_name VARCHAR(255) NOT NULL,
     distance INT NOT NULL,
     markup FLOAT(5, 2) NOT NULL,
-    PRIMARY KEY(store_id)
 ) ENGINE=InnoDB ROW_FORMAT=DYNAMIC;
