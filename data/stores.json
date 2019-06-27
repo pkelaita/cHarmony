@@ -1,26 +1,26 @@
 [
   {
-    "name": "Target",
+    "store_name": "Target",
     "distance": 2.5,
     "markup": 1.31
   },
   {
-    "name": "QFC",
+    "store_name": "QFC",
     "distance": 0.8,
     "markup": 1.48
   },
   {
-    "name": "Trader Joe's",
+    "store_name": "Trader Joe's",
     "distance": 3.1,
     "markup": 1.23
   },
   {
-    "name": "Whole Foods",
+    "store_name": "Whole Foods",
     "distance": 0.5,
     "markup": 1.55
   },
   {
-    "name": "Fred Meyer",
+    "store_name": "Fred Meyer",
     "distance": 5.5,
     "markup": 1.15
   }
