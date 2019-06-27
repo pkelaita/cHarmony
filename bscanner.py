@@ -1,6 +1,6 @@
 from pyzbar import pyzbar
 import numpy
-import urllib
+import urllib.request
 import cv2
 import json
 
@@ -45,7 +45,7 @@ def bscan(image, resize_factor=1.0, show_output=False):
 
     # Get product info
     url = 'https://world.openfoodfacts.org/api/v0/product/{}.json'.format(upc)
-    data = json.load(urllib.urlopen(url))
+    data = json.load(urllib.request.urlopen(url))
 
     if not data['status']:
         return {'error': 'Product with UPC {} not found'.format(upc)}
