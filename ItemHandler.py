@@ -33,7 +33,7 @@ def rank(store_data_list):
         store_name = store_data_list[i][JSON]['name']
         distance = norm_distances[i]
         price = norm_prices[i]
-        ranks[store_name] = (calculate_rank(distance, price))
+        ranks[store_name] = calculate_rank(distance, price)
 
     return ranks
 
