@@ -21,7 +21,8 @@ def scan():
 @app.route('/', methods=['POST'])
 def root():
     img_fs = request.files['image']
-    return tojson(get_item_information(img_fs))
+    price = request.args.get('price')
+    return tojson(get_item_information(img_fs, price))
 
 
 if __name__ == '__main__':
