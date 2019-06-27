@@ -2,26 +2,55 @@
   {
     "name": "Target",
     "distance": 2.5,
-    "markup": 1.31
+    "markup": 1.31,
+    "stores": [
+      "QFC",
+      "Fred Meyers ",
+      "Target"
+    ]
   },
   {
     "name": "QFC",
     "distance": 0.8,
-    "markup": 1.48
+    "markup": 1.48,
+    "stores": [
+      "Target",
+      "Fred Meyers ",
+      "QFC"
+    ]
   },
   {
     "name": "Trader Joe's",
     "distance": 3.1,
-    "markup": 1.23
+    "markup": 1.23,
+    "stores": [
+      "Whole Foods",
+      "Target",
+      "Trader Joe's",
+      "QFC",
+      "Fred Meyers "
+    ]
   },
   {
     "name": "Whole Foods",
     "distance": 0.5,
-    "markup": 1.55
+    "markup": 1.55,
+    "stores": [
+      "Fred Meyers ",
+      "Whole Foods",
+      "Trader Joe's",
+      "Target"
+    ]
   },
   {
     "name": "Fred Meyer",
     "distance": 5.5,
-    "markup": 1.15
+    "markup": 1.15,
+    "stores": [
+      "Target",
+      "Whole Foods",
+      "Trader Joe's",
+      "QFC"
+    ]
   }
 ]

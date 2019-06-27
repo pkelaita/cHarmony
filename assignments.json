@@ -1,0 +1,31 @@
+[
+    [
+        "QFC",
+        "Fred Meyers ",
+        "Target"
+    ],
+    [
+        "Target",
+        "Fred Meyers ",
+        "QFC"
+    ],
+    [
+        "Whole Foods",
+        "Target",
+        "Trader Joe's",
+        "QFC",
+        "Fred Meyers "
+    ],
+    [
+        "Fred Meyers ",
+        "Whole Foods",
+        "Trader Joe's",
+        "Target"
+    ],
+    [
+        "Target",
+        "Whole Foods",
+        "Trader Joe's",
+        "QFC"
+    ]
+]
