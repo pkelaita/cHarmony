@@ -1,9 +1,11 @@
 from flask import Flask, make_response, request
+from flask_cors import CORS
 from bscanner import bscan_fs
 from ItemHandler import get_item_information
 import json
 
 app = Flask(__name__)
+CORS(app)
 
 
 def tojson(res):
